@@ -164,6 +164,7 @@ font-weight: 700;
 .button{
     color: var(--primary-white-color);
     background-color:var(--pasiv-button-color) ;
+    cursor: pointer;
 }
 .button:hover,
 .button:focus{
@@ -176,11 +177,13 @@ font-weight: 700;
 .filter .filter-button{
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
+    cursor: pointer;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.625;
         text-align: center;
         letter-spacing: 0.03em;
+
 }
 .filter .filter-button:hover,
 .filter .filter-button:focus{
