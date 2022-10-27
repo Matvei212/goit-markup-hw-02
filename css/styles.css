@@ -1,0 +1,128 @@
+/* основной цвет  color: #212121;*/
+/* вторичный цвет color: #757575; */
+/* акцент color: #2196F3 */
+/* белый color: #FFFFFF;  */
+/* черный color: #000000; */
+/* футер контакты color: rgba(255, 255, 255, 0.6); */
+
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--primary-white-color: #FFFFFF;
+--black-color:#000000;
+--footer-contacts-color: rgba(255, 255, 255, 0.6);
+--second-background-color:#2F303A;
+--pasiv-button-color: #188CE8;
+--active-button-color:#2196F3;
+}
+
+.body{
+    color:var(--title-text-color);
+    background-color: var(--primary-white-color);
+    font-family: Roboto , sans-serif;
+}
+.list{
+    list-style: none;
+}
+.logo{ 
+    color:var(--black-color);
+    font-family: Raleway , sans-serif;
+      
+}
+.piece-logo{
+    color:var(--accent-color)
+}
+/* Навігація */
+.site-nav .link{
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+/* Контакти хедер */
+.contacts .link{
+    color:var(--primary-text-color)
+}
+.contacts .link:hover,
+.contacts .link:focus{
+    color: var(--accent-color);
+}
+/* Герой */
+
+.hero-title {
+    color: var(--primary-white-color);
+    background-color: var(--second-background-color) ;
+}
+/* Секції */
+.section-title {
+    color: var(--title-text-color);
+}
+/* Наші плюси */
+.feature-list .title{
+    color: var(--title-text-color);
+}
+.feature-list .text {
+    color: var(--primary-text-color);
+}
+/* Наша команда */
+.comand .name{
+    color: var(--title-text-color);
+}
+.comand .text {
+    color: var(--primary-text-color);
+}
+/* футер */
+ .contact .addres {
+    color: var(--primary-white-color);
+}
+.contact .addres:hover,
+.contact .addres:focus{
+    color: var(--accent-color);
+}
+.contact .footer-link {
+    color: var(--footer-contacts-color);
+    background-color: #2F303A;
+}
+.contact .footer-link:hover,
+.contact .footer-link:focus {
+    color: var(--accent-color);
+}
+/* Кнопка */
+.button{
+    color: var(--primary-white-color);
+    background-color:var(--pasiv-button-color) ;
+}
+.button:hover,
+.button:focus{
+    background-color: var(--active-button-color);
+}
+
+
+/* ПОРТФОЛІО */
+
+.filter .filter-button{
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+}
+.filter .filter-button:hover,
+.filter .filter-button:focus{
+    color: var(--primary-white-color);
+    background-color: var(--active-button-color);
+   
+}
+.work .work-title {
+    color: var(--title-text-color);
+}
+.work .work-text{
+    color: var(--primary-text-color);
+}
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> */
