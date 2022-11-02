@@ -28,10 +28,11 @@
   margin: auto;
 }
 .container{
-  padding-left: 215px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1600px;
+  /* padding-left: 215px;
+  padding-right: 215px; */
+  margin-left: 215px;
+  margin-right: 215px;
+  width: 1170;
   
   
 
@@ -57,15 +58,16 @@ a {
   color: var(--accent-color);
 }
 /* Навігація */
-.top-line{
-  display: flex;
-  
-}
-.top-line .container{
+
+.top-line {
   display: flex;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
+}
+.conteiner-nav {
+  display: flex;
+  align-items: center;
 }
 
 .site-nav{
@@ -96,6 +98,8 @@ a {
 /* Контакти хедер */
 .contacts{
   display: flex;
+  align-items: center;
+  padding-left: 344px;
 }
 
 .contacts .item:not(:last-child){
@@ -146,7 +150,9 @@ a {
 .section{
   margin-top: 0px;
   margin-bottom: 94px;
+  align-items: center;
 }
+
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -159,7 +165,7 @@ a {
 /* Наші плюси */
 .container .feature-list{
   display: flex;
-  padding-right: 215px;
+ 
 }
 
 .feature-list .title {
@@ -176,9 +182,7 @@ a {
   margin:0%;
 }
 /* Чим ми займаэмося */
-.section .section-title{
-  padding-right: 215px;
-}
+
 .container .works{
   display: flex;
 }
@@ -189,12 +193,14 @@ a {
 .container .comand{
   display: flex;
 }
-.container .comand:not(:last-child){
+.comand .item:not(:last-child){
   margin-right: 30px;
 }
 .comand-section{
   background-color: var(--portfolio-button-color);
   padding: 94px 215px;
+  width: 1600px;
+  margin: 0%;
 }
 .comand .item{
   background-color: var(--primary-white-color);
@@ -224,6 +230,7 @@ a {
 }
 .footer .container{
   padding: 60px 1124px 60px 215px;
+  margin: 0%;
 }
 .footer-logo {
   color: var(--primary-white-color);
